@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title> {{title}} - Pizza Orders </title>
+    </head>
+    <body>
+        <h1>Pizza Pre-Orders</h1>
+        {% for order in orders %}
+            <div>
+                <p>
+                    {{ order.customer_name }}: <b>{{ order.description }}, </b> <b>{{ order.quantity }}</b>
+                </p>
+            </div>
+        {% endfor %}
+    </body>
+   
+</html>
+
+
+
+

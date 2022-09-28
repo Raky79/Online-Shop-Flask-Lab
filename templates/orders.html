@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>{{title}} - Order 1</title>
+    </head>
+    <body>
+        <h1>Customer Order</h1>
+        {% for order in orders %}
+        <div>
+            <p>
+             <a href="http://127.0.0.1:5000/orders">
+                {{ order.customer_name }}: <b>{{ order.description }}, </b> <b>{{ order.quantity }}</b>
+             </a>
+            </p>
+        </div>
+    {% endfor %}
+    </body>
+</html>
