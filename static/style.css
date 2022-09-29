@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lightgreen;
+    color:azure;
+    background-image: url(https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80);
+}
+
+body > header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: forestgreen;
+    color: aliceblue;
+    background-image: url(https://images.unsplash.com/photo-1635648930272-f40b953770b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHJvc2VtYXJ5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+}
+
+body > section {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    font-size: 20px;
+}
